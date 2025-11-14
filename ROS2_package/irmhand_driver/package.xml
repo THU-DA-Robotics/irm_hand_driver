@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>irmhand_driver</name>
+  <version>0.0.0</version>
+  <description>ROS 2 driver for the IRM Hand (Feetech motors)</description>
+
+  <maintainer email="anag@todo.todo">anag</maintainer>
+  <license>TODO</license>
+
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <build_depend>ament_cmake_python</build_depend>
+  <build_depend>python3</build_depend>
+  <exec_depend>python3</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

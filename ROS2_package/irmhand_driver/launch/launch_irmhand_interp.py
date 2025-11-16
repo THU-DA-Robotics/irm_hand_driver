@@ -6,7 +6,7 @@ def generate_launch_description():
     return LaunchDescription(
         [
             Node(
-                package="irmhand_ft_driver",
+                package="irmhand_driver",
                 executable="irmhand_node_interp.py",
                 name="irmhand_node_interp",
                 emulate_tty=True,

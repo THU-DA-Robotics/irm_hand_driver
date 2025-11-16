@@ -1,12 +1,9 @@
 #!/usr/bin/env python3
 
 
-# Renamed import for irmhand_utils
-import irmhand_utils.irmhand_utils as lhu
 import numpy as np
 import rclpy
-
-# Renamed import for ft_motor_client
+import utils.leap_utils as lhu
 from FT_client import *
 from rclpy.node import Node
 from sensor_msgs.msg import JointState

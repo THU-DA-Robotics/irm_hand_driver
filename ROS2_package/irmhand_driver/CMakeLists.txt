@@ -29,7 +29,6 @@ ament_package()
 ## Install ##
 #############
 # Install the Python utility module/directory
-# (Assuming you rename 'scripts/leap_hand_utils' to 'scripts/irmhand_utils')
 install(DIRECTORY
   scripts/irmhand_utils
   DESTINATION lib/${PROJECT_NAME}
